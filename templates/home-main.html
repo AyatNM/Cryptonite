@@ -1,0 +1,32 @@
+<div class="home-content">
+    <div id="my-parallax"></div>
+
+    <!-- search button from bootstrap -->
+    <div id="search-container" class="form-inline">
+        <input class="form-control mr-sm-2" id="searchTxt" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn my-2 my-sm-0" onclick="Search()" type="button">Search</button>
+    </div>
+
+    <div id="card-container"></div>
+
+    <!-- Modal -->
+    <div class="modal fade in" id="reportCurrencyListModal" tabindex="-999" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true" data-keyboard="false" data-backdrop="static" data-new-id="" data-new-symbol="" data-new-name="">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="exampleModalLongTitle">Report list of the chosen coins</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        Your coin limit is 5,<br>You can't choose more so delete the extra coin from the list below:
+                    </p>
+                    <table></table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" onclick="onSaveCoinListReport()">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

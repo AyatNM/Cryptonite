@@ -1,0 +1,166 @@
+/* <<<<<<<<<<<<<<<<<<<<<< Global Style >>>>>>>>>>>>>>>>>>>>>> */
+
+@font-face {
+    font-family: 'CabinSketch-Regular';
+    src: url(assets/fonts/CabinSketch-Regular.ttf);
+}
+
+html,
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    background-size: cover;
+}
+
+#page-title {
+    color: rgb(252, 216, 132, 255);
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 60px;
+    margin: 8px;
+    font-family: 'CabinSketch-Regular';
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.loader {
+    background-image: url("./assets/images/loading-36.gif");
+    width: 600px;
+    height: 700px;
+    display: inline-block;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0;
+}
+
+
+/* <<<<<<<<<<<<<<<<<<<<<< Home Style >>>>>>>>>>>>>>>>>>>>>> */
+
+.home-content #my-parallax {
+    height: 350px;
+    width: 80%;
+    margin: 10px 10%;
+    background: url('assets/images/Bitcoin-Gold.jpg') repeat center;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.home-content #search-container {
+    margin-top: 1%;
+    padding: 1%;
+    justify-content: center;
+}
+
+.home-content #search-container>input {
+    color: black;
+    height: 35px;
+    border-color: black;
+}
+
+.home-content #search-container>button {
+    background-color: rgb(252, 216, 132, 255);
+    color: black;
+    font-size: 20px;
+    height: 35px;
+    line-height: 20px;
+}
+
+.home-content .more-info-container>img {
+    height: 70px;
+}
+
+.home-content .more-info-body table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home-content .more-info-body .loader {
+    width: 100px;
+    height: 100px;
+}
+
+.home-content #card-container {
+    vertical-align: top;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.home-content .card {
+    display: inline-block;
+    background-image: linear-gradient(60deg, rgba(193, 136, 57, 255), rgba(238, 190, 98, 255), rgb(252, 216, 132, 255));
+    color: black;
+    border: 2px solid dimgray;
+    padding: 1px;
+    margin: 3%;
+    text-align: center;
+    font-size: large;
+}
+
+.home-content .card>* {
+    padding: 3px;
+    margin: 3px;
+}
+
+.home-content .collapse {
+    padding-top: 10px;
+}
+
+
+/* <<<<<<<<<<<<<<<<<<<<<< Live report Style >>>>>>>>>>>>>>>>>>>>>> */
+
+.live-report-content {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.live-report-content #chartContainer {
+    width: 80%;
+}
+
+.live-report-error {
+    background-position: center;
+    text-align: center;
+    color: rgb(252, 216, 132, 255);
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.live-report-content #report-image {
+    width: 28%;
+    border-radius: 17%;
+    background-position: center;
+    margin-bottom: 20px;
+}
+
+
+/* <<<<<<<<<<<<<<<<<<<<<< About Style >>>>>>>>>>>>>>>>>>>>>> */
+
+.about-content {
+    background-position: center;
+    text-align: center;
+    color: rgb(252, 216, 132, 255);
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.about-content #about-image {
+    width: 28%;
+    border-radius: 17%;
+    background-position: center;
+    margin-bottom: 20px;
+}
